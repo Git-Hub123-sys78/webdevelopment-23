@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+  <center>
+    <h1> DOCTOR APPOINTMENT FORM</h1>
+    <hr color="red" width="90%">
+      <form action="www.medibuddy.in" method="POST">
+         <table cellspacing="30">
+             <tr>
+               <td><label><b>APPOINTMENT DATE </b></label></td>
+               <td><input type="date"></td>
+             </tr>
+            <tr>
+            <td><label><b>APPOINTMENT TIME </b></label></td>
+            <td><input type="time"></td>
+            </tr>
+           <tr>
+           <td><label><b>NAME </b></label></td>
+           <td><input type="text" name="fname" placeholder="first">
+           <input type="text" name="lname" placeholder="last"></td>
+           </tr>
+          <tr>
+          <td><label><b>GENDER </b></label></td>
+          <td><input type="radio" name="gender">FEMALE
+          <input type="radio" name="gender">MALE</td>
+          </tr>
+          <tr>
+          <td><label><b>PHONE NUMBER </b></label></td>
+          <td><input type="tel" maxlength="10" placeholder="#####"></td>
+          </tr>
+         <tr>
+         <td><label><b>ADDRESS </b></label></td>
+         <td><input type="text" name="city" placeholder="city">
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="state" placeholder="state"</td>
+         </tr>
+        <tr>
+        <td><label><b>YOUR QUERY</b></label></td>
+        <td><textarea rows="5" cols="10"></textarea></td>
+        </tr>
+        <tr>
+        <td><label><b>APPOINTMENT TYPE   </b></label></td>
+        <td>Select which appointment type(s) you require</td>
+        </tr>
+        <tr>
+        <td></td>
+        <td><input type="checkbox" >Cervix checkup<br>
+        <input type="checkbox" >Heart checkup<br>
+        <input type="checkbox" >Eye checkup<br>
+        <input type="checkbox" >Hearing test</td>
+       </tr>
+        <tr>
+        <td></td>
+        <td><input type="submit" name="button" value="send"></td>
+        </tr>
+        </table>
+       </center>
+    </form>
+  </body>
+</html>
