@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            .asidecontainer{
+                display:block;
+                border:1px solid gray;
+                width:300px;
+                padding-top:10px;
+                padding-left:5px;
+                padding-bottom:10px;
+                padding-right:0px;
+            }
+            .asidebar{
+            display: flex;
+            padding: 0;
+            margin: 0;
+            }
+            .asidebar a{
+                display:inline-block;
+                text-decoration:none;
+                background-color:lightgrey;
+                color:blue;
+                border:1px solid ;
+                text-align:center;
+                padding:10px;
+            }
+            .asidebar a.home{
+             background-color:darkslategray;
+             color:white;
+            }
+            .c{
+                width: 100px;
+            }
+
+        
+            </style>
+    </head>
+    <body>
+        <p>Horizontal navigation bar</p>
+        <div class="asidecontainer">
+            <aside class="asidebar">
+               <a href="www.home.com" class="home">Home</a>
+                <a href="www.java.com">Java</a>
+                <a href="www.html.com">HTML</a>
+                <a href="www.css.com">CSS</a>
+                <a href="" class="c"></a>
+            </aside>
+        </div>
+    </body>
+</html>
